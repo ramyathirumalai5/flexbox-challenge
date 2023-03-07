@@ -1,0 +1,118 @@
+*{
+    padding:0px;
+    margin:0px;
+  }
+  
+  main{
+    display:flex;
+    justify-content: space-between;
+  }
+  nav{
+    display:flex;
+    justify-content:space-between;
+    background-color:black;
+    color:white;
+  }
+  
+  nav h3{
+    padding:20px;
+    background-color:green;
+  }
+  
+  
+  
+  nav ul{
+    display:flex;
+    justify-content:space-evenly;
+    list-style:none;
+  }
+  
+  nav ul li{
+    padding: 20px 60px;
+  }
+  
+  nav ul li:hover{
+    background-color:green;
+    color:black;
+  }
+  
+  .card1{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-top:30px;
+    margin-left:50px;
+    padding:20px;
+    border:2px solid black;
+    width:800px;
+  }
+  
+  .card1 div{
+    width:100px;
+    height:100px;
+    background-color:black;
+    color:white;
+  }
+  .card2{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    gap:30px;
+    margin-top:30px;
+    margin-left:50px;
+    padding:20px;
+    border:2px solid black;
+    width:800px;
+  }
+
+  .card2 div{
+    width:100px;
+    height:100px;
+    background-color:black;
+    color:white;
+  }
+
+  .card3{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    gap:30px;
+    margin-top:30px;
+    margin-left:50px;
+    padding:20px;
+    border:2px solid black;
+    width:800px;
+  }
+
+  .card3 div{
+    width:100px;
+    height:100px;
+    background-color:black;
+    color:white;
+    
+  }
+  .card1 ul li{
+    padding:6px;
+    margin-left:40px;
+  }
+
+  .card2 ul li{
+    padding:6px;
+    margin-left:40px;
+  }
+
+  .card3 ul li{
+    padding:6px;
+    margin-left:40px;
+  }
+  
+  .right{
+    border:2px solid black;
+    text-align:auto;
+    padding:15px;
+    margin-right:50px;
+    margin-top:30px;
+    width:250px;
+    height:auto;
+  }
+  
